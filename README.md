@@ -1,7 +1,7 @@
-__Count_Down__: Counts down from a user-input number to zero, printing each number.
+__Count Down__: Counts down from a user-input number to zero, printing each number.
 
-__Vowel-Counter__: Counts and prints the total number of vowels in user-input text, case-insensitive.
+__Vowel Counter__: Counts and prints the total number of vowels in user-input text, case-insensitive.
 
-__Sort_List__: Sorts a list of numbers in ascending, descending, or original order based on a given parameter.
+__Sort List__: Sorts a list of numbers in ascending, descending, or original order based on a given parameter.
 
 __Invoice Generator__: Creates and prints an invoice showing each item’s name, price, and the total amount for a given client and list of items.
