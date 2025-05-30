@@ -1,0 +1,24 @@
+from datetime import datetime
+
+def generate_invoice(client, items):
+    print(f"Invoice for: {client}")
+    print(f"Date: {datetime.today().date()}")  # returns only the date (no time)
+    print("-" * 30)  # print a dashed line
+    print(f"{'Item':20} {'Price':>7}")  # align 'Price' header to the right
+    print("-" * 30)
+
+    total = 0
+    for item, price in items:
+        print(f"{item:20} ${price:>7.2f}")  # format price with 2 decimals, right-aligned
+        total += price  # add price to total
+    print("-" * 30)
+    print(f"{'Total':20} ${total:>7.2f}")
+
+# example
+items = [
+    ("Apples", 2.99),
+    ("Bread", 1.75),
+    ("Milk", 3.49)
+]
+
+generate_invoice("Mojtaba Mehri", items)
