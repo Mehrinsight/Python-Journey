@@ -1,21 +1,18 @@
-"""
-Sort a List
-Create a function that accepts two parameters:
-1- A list of numbers
-2- The desired sort order as a string: "asc" (ascending), "desc" (descending), or "none" (no sorting)
-The function should return the sorted list based on the specified order, or the original list if "none" is given.
-"""
 def sort_list(list, order):
-    if order.lower() == 'asc':
-        return sorted(list)
-    elif order.lower() == 'desc':
-        return sorted(list, reverse=True)
-    elif order.lower() == 'none':
-        return list
-    else: return 'Invalid order'
+    order = order.lower()  # make input case-insensitive
+    if order == 'asc':
+        return sorted(list)  # ascending sort
+    elif order == 'desc':
+        return sorted(list, reverse=True)  # descending sort
+    elif order == 'none':
+        return list  # no sorting
+    else:
+        return 'Invalid order'  # invalid input
 
-mylist = [3,2,76,23,5,1]
-print(sort_list(mylist,'asc'))
-print(sort_list(mylist,'desc'))
-print(sort_list(mylist,'None'))
-print(sort_list(mylist,'zone'))
+# example
+mylist = [3, 2, 76, 23, 5, 1]
+
+print(sort_list(mylist, 'asc'))
+print(sort_list(mylist, 'desc'))
+print(sort_list(mylist, 'None'))
+print(sort_list(mylist, 'zone'))
