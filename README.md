@@ -12,3 +12,11 @@ How to Use:
 - Run the script.
 - Enter any text when prompted.
 - Get the total number of vowels printed out instantly.
+
+__Sort_List__
+A Python script creates a function that accepts two parameters:
+
+A list of numbers, and
+The desired sort order as a string: "asc" (ascending), "desc" (descending), or "none" (no sorting)
+
+The function returns the sorted list based on the specified order, or the original list if "none" is given.
