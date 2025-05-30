@@ -1,4 +1,4 @@
-__CountDown__: Counts down from a user-input number to zero, printing each number.
+__Count_Down__: Counts down from a user-input number to zero, printing each number.
 
 __Vowel-Counter__: Counts and prints the total number of vowels in user-input text, case-insensitive.
 
