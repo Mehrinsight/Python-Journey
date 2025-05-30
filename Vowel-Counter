@@ -1,0 +1,10 @@
+def count_vowels(text):
+  vowel_list = ['a', 'i', 'e', 'o', 'u']
+  total_vowel = 0
+  for vowel in vowel_list:
+    text = text.lower()
+    total_vowel += text.count(vowel)
+  return total_vowel
+
+text = input('Enter text to count vowels: ')
+print(f'Number of vowels:', count_vowels(text))
