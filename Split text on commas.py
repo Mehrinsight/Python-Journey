@@ -1,3 +1,5 @@
+import re  # Regular expression module
+
 pattern = re.compile(r',\s*')
 
 text = "apple, banana,  cherry,grape"
